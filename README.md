@@ -1,7 +1,8 @@
 # waltonjm.github.io
 Public Portfolio
 # Description
-This repo contains coding activities and projects.
+This repo contains MIT xPro Professional Certificate in Coding Boot Camp projects:
+<a href="http://waltonjm.github.io/eye-exercise>eye-exercise</a>
 # Installation
 # Usage
 # Support
