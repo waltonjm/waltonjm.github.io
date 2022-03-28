@@ -1,3 +1,18 @@
+a {
+    color: #619448;
+    text-decoration: none;
+}
+
+h2 {
+    color: #619448;
+}
+
+.grid-wrapper {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+}
+
 .nav-scroller {
     position: relative;
     z-index: 2;
@@ -20,42 +35,4 @@
     padding-top: .75rem;
     padding-bottom: .75rem;
     font-size: .875rem;
-}
-
-.card-img-right {
-    height: 100%;
-    border-radius: 0 3px 3px 0;
-}
-
-.flex-auto {
-    flex: 0 0 auto;
-}
-
-.h-250 {
-    height: 250px;
-}
-
-@media (min-width: 768px) {
-    .h-md-250 {
-        height: 250px;
-    }
-}
-
-
-/*
- * Blog posts
- */
-
-.blog-post {
-    margin-bottom: 4rem;
-}
-
-.blog-post-title {
-    margin-bottom: .25rem;
-    font-size: 2.5rem;
-}
-
-.blog-post-meta {
-    margin-bottom: 1.25rem;
-    color: #727272;
 }
