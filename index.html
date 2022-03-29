@@ -7,15 +7,15 @@
     <meta name="description" content="">
     <title>Home is About Me</title>
     <link href="blog.css" rel="stylesheet">
-    <!--Code Notes: mb margin bottom mt margin top ml margin left mr margin rigt same for padding p# Padding -->
-    <!--Bootstrap CDN via JSDeliver-->
+
+    <!-- Bootstrap CDN via JSDeliver -->
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/blog/">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <!-- Custom font IAW wigwag Branding Guidelines -->
+
+    <!-- Custom Font -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open Sans" rel="stylesheet">
-    <!-- Custom styles IAW wigwag Branding Guidelines -->
-    <link href="blog.css" rel="stylesheet">
-    <!-- Custom font for this template -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open Sans" rel="stylesheet" />
+
+    <!-- Custom Icons -->
     <script src="https://kit.fontawesome.com/6f8760fe73.js" crossorigin="anonymous"></script>
 </head>
 
@@ -46,18 +46,23 @@
         </nav>
     </header>
     <main class="container">
-        <div class="row p-md-5 mb-4 text-white rounded bg-success">
-            <div class="col-6">
-                <img style="float: left; margin-right: 10px; width: 40%" src="corporate-bio-avatar-transparent.png" />
+        <div class="row p-2 p-md-5 mb-4 text-white rounded bg-success gap-4 gap-lg-0">
+            <div class="col-12 col-lg-6 align-items-center d-flex">
+                <img style="float: left; margin-right: 10px; width: 40%" src="corporate-bio-photo.png" />
                 <div class="py-4">
-                    <h1 class="display-4">Jacqueline Walton</h1>
-                    <p>
-                        <img style="float: left; margin-right: 10px; width: 5%" src="icon-person-video-white.png" /> Founder | CEO | wigwagapp, Inc.
-                    </p>
+                    <h1 class="fs-2 fs-md-1">Jacqueline Walton</h1>
+                    <div class="d-flex gap-3 gap-xl-2 align-items-center">
+                        <img style="height:24px" src="icon-person-video-white.png" />
+                        <div class="d-flex flex-column flex-xl-row gap-0 gap-xl-2">
+                            <div class="text-nowrap">Founder & CEO</div>
+                            <div class="d-none d-xl-block">|</div>
+                            <div class="text-nowrap">wigwagapp, Inc.</div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col" style="width: 18rem">
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/bTMcnyKx_MM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="col-12 col-lg-6">
+                <iframe width="100%" height="350px" src="https://www.youtube-nocookie.com/embed/bTMcnyKx_MM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
         <h2>Biography</h2>
@@ -131,6 +136,16 @@
         <a class="text-white" target="_blank" rel="noreferrer" href="https://www.wigwagapp.com">www.wigwagapp.com</a>
         <a class="text-white" href="#">Back to top</a>
     </footer>
+</body>
+
+</html>ain>
+<footer class="mt-4 bg-success text-white container d-flex justify-content-between rounded-top p-4">
+    <div>
+        &copy; 2022 wigwag&reg;
+    </div>
+    <a class="text-white" target="_blank" rel="noreferrer" href="https://www.wigwagapp.com">www.wigwagapp.com</a>
+    <a class="text-white" href="#">Back to top</a>
+</footer>
 </body>
 
 </html>
